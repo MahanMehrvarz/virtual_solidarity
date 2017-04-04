@@ -1,4 +1,4 @@
-"""import RPi.GPIO as GPIO"""
+import RPi.GPIO as GPIO
 import time
 import psutil
 import random
@@ -57,9 +57,9 @@ def main():
               #programming guide print
               print "nothing"
               print "the network traffic usuage is "+str(a)
-              """for i in range(0,random_cycle()):
+              for i in range(0,random_cycle()):
                 spin(11)
-                GPIO.cleanup()"""
+                GPIO.cleanup()
               dd= random_delay()
               time.sleep (dd)
               print random_cycle()
@@ -69,9 +69,9 @@ def main():
               print "sth"
               print "the network traffic usuage is"+str(a)
               #for performing 5 blinks
-              """for i in range(0,5):
+              for i in range(0,5):
                   spin(11)
-                  GPIO.cleanup()"""
+                  GPIO.cleanup()
  
     old_value = new_value
  
