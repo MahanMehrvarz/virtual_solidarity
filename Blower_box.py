@@ -1,4 +1,4 @@
-"""import RPi.GPIO as GPIO"""
+import RPi.GPIO as GPIO
 import time
 import psutil
 import random
@@ -7,7 +7,7 @@ import random
 # blowing function: note that it is only one blink if you want to perform more 
 #blinks at once you have to use a for loop
 
-"""def blow(pin):
+def blow(pin):
         # to use Raspberry Pi board pin numbers
         GPIO.setwarnings(False)
         GPIO.setmode(GPIO.BOARD)
@@ -19,7 +19,7 @@ import random
         GPIO.output(pin,GPIO.LOW)
         time.sleep(0.5)
         return
- """
+
 #the ammount of delay for mimicing the usuage of internet
 def random_delay():
   base_value = random.randint(0, 100)
@@ -60,7 +60,7 @@ def main():
                   #programming guide print
               #print "nothing"
               #print "the network traffic usuage is "+str(a)
-              """for i in range(0,random_cycle()):
+              for i in range(0,random_cycle()):
                 blow(16)
                 GPIO.cleanup()"""
               dd= random_delay()
@@ -72,7 +72,7 @@ def main():
               print "sth"
               print "the network traffic usuage is"+str(a)
               #for performing 5 blinks
-              """for i in range(0,5):
+              for i in range(0,5):
                   blow(16)
                   GPIO.cleanup()"""
  
