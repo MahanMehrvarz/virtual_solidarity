@@ -40,7 +40,7 @@ def random_delay():
 def random_cycle():
   cycle=random.randint(4,10)
   print "cycle is "+str(cycle)
-  return cycl
+  return cycle
 
 #main program
 def main():
