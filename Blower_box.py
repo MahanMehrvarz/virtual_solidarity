@@ -62,7 +62,7 @@ def main():
               #print "the network traffic usuage is "+str(a)
               for i in range(0,random_cycle()):
                 blow(16)
-                GPIO.cleanup()"""
+                GPIO.cleanup()
               dd= random_delay()
               time.sleep (dd)
               print random_cycle()
@@ -74,7 +74,7 @@ def main():
               #for performing 5 blinks
               for i in range(0,5):
                   blow(16)
-                  GPIO.cleanup()"""
+                  GPIO.cleanup()
  
     old_value = new_value
  
